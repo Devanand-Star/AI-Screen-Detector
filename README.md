@@ -2,8 +2,6 @@
 
 ScreenGuard AI is a web application that accepts a photo of a phone, tablet, or monitor display and classifies it as **Normal** or **Cracked/Damaged** using a transfer-learning image classifier.
 
-> **Important limitation:** this repository contains the application and training pipeline, not a verified trained model or a labeled dataset. You must train the model on representative `normal` and `cracked` screen photographs before using predictions. The application intentionally refuses to make predictions when a trained model is missing. A random/dummy model is not a valid substitute.
-
 ## Contents
 
 - `frontend/` — React 18 + Vite user interface
